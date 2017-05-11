@@ -1,0 +1,24 @@
+[ 2016-12-02T17:00:22+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002587s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\52b8c6f3a1fe6595dcdd19993f475471.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002479s ]
+

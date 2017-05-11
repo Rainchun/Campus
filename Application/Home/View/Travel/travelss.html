@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Music</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- <link href="__PUBLIC__/Home/css/bootstrap.css" rel='stylesheet' type='text/css' /> -->
+<!-- Custom Theme files -->
+<include file="./Application/Public/head.html" />
+<!-- <link href="__PUBLIC__/Home/css/style.css" rel='stylesheet' type='text/css' />	
+ --><link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/component.css" />
+<!-- <script src="__PUBLIC__/Home/js/jquery-1.11.1.min.js"></script> -->
+<!-- <script src="__PUBLIC__/Home/js/bootstrap.min.js"></script> -->
+<script src="__PUBLIC__/Home/js/modernizr.custom.js"></script>
+<style type="text/css">
+body{
+	background: #f7f7f7;
+}
+#dialog{
+	margin-top: -250px;
+	height: 520px;
+}
+</style>
+</head>
+<body>
+<div class="header" id="ban">
+		<include file="./Application/Public/nav.html" />
+	
+</div>
+
+	<!-- technology-left -->
+	<div class="technology">
+	<div class="container">
+		<div class="col-md-9 technology-left">
+			<div class="music">
+				
+				<div class="effect-grid">
+						<h2 class="w3" style="font-family: miaomi">{$themetype.tname}</h2>
+
+
+<div id="wrapper">
+	<div class="box">
+		<div class="demo">
+			<div class="key">	
+			<a href="javascript:;" class="flipInX">发布结伴</a>
+			</div>
+		</div>
+		
+		<div id="dialogBg"></div>
+		<div id="dialog" class="animated">
+			
+			<div class="dialogTop">
+			    <a href="#" style="font-size: 20px; margin-right: 20px;">快速吸引你的小伙伴</a>
+				<a href="javascript:;" class="claseDialogBtn">关闭</a>
+			</div>
+			<form action="{:U('Travel/doTravel')}" method="post" id="editForm" enctype="multipart/form-data">
+				<ul class="editInfos">
+					<li><input type="text" name="titles" value="" class="ipt" style="width: 250px;" placeholder="结伴标题" required  /></li>
+					<li><input type="text" name="site" value="" class="ipt" style="width: 250px;" placeholder="结伴目的地" required  /></li>
+					<li><select name="themetype_tid" class="ipt"  style="width: 250px;" >
+                    <option value="0">结伴主题</option>
+                    <option value="1">一起浪</option>
+                    <option value="2">粗去吃</option>
+                    <option value="3">约你看电影</option>  
+                    <option value="4">图书馆不见不散</option>
+                    <option value="5">购物</option>                   
+                    </select></li>
+                    <li><input type="date" name="pretime" value="" class="ipt" style="width: 250px; height: 30px;" title="出发时间" required  /></li>
+                    <li><input type="date" name="endtime" value="" class="ipt" style="width: 250px; height: 30px;" title="结束时间" required  /></li>
+                    <li><input type="text" name="tele" value="" class="ipt" style="width: 250px;" placeholder="联系方式" required  /></li>
+                    <li style="margin-left: 22px" class="file">        
+                    <input type="file" name="pic" value="" class="ipt" style="width: 250px;" title="结伴封面图片" required  /></li>
+                    <li><textarea name="detail" placeholder="结伴详情" style="width: 250px; height: 100px;margin-left: 3px"></textarea></li>
+					<li><input type="submit" value="发布" class="submitBtn" /></li>
+				</ul>
+			</form>
+		</div>
+	</div>
+</div>
+	
+
+
+			<div class="blog-grids1">
+             <volist name="redmodel" id="vo">
+				<div class="col-md-6 blog-grid" style="margin-bottom: 50px;">
+					<div class="blog-grid-left1">
+						<a href="{:U('Recommend/content',array('id'=>$vo['id']))}"><img src="__PUBLIC__/Home/uploads/recmdphoto/{$vo.pic}" alt=" " class="img-responsive" style="width: 375px; height: 236px"></a>
+						<input type="hidden" value="{$vo.id}">
+					</div> 
+					<div class="blog-grid-right1" >
+						<a href="{:U('Recommend/content',array('id'=>$vo['id']))}">{$vo.name}</a>
+						<div class="boxed_mini_details clearfix">
+			                         <span class="area first">
+			                           <strong style="margin-left: 4px;">发布人</strong>
+			                           <img src="__PUBLIC__/Home/images/user.png" style="width: 13px;margin-left: 3px;" >
+			                           <i class="fa fa-plane icon1"></i>{$vo.uname}
+			                         </span>
+			                         <span class="area first">
+			                           <strong>浏览量</strong>
+			                           <img src="__PUBLIC__/Home/images/eye.png" style="width: 13px;margin-left: 3px;" >
+			                           <i class="fa fa-plane icon1"></i>{$vo.hits}
+			                         </span>
+			                         <span class="area first">
+			                           <strong>觉得很棒</strong>
+			                           <img src="__PUBLIC__/Home/images/zan.png" style="width: 13px; margin-left: 9px;" >
+			                           <i class="fa fa-plane icon1"></i>{$vo.praise}
+			                         </span>			      
+                                    </div>
+					</div>
+					<div class="clearfix"> </div>
+					
+				</div>
+				</volist>
+
+
+				
+				<div class="clearfix"> </div>
+			</div>
+
+
+           <div class="paging">{$link}</div>
+
+
+			</div>
+		</div>
+		<!-- technology-right -->
+		<div class="col-md-3 technology-right">
+				
+				
+				<div class="blo-top1">
+							
+					<div class="tech-btm">
+					
+					<h4 style="font-family: miaomi">结伴主题</h4>
+						<div class="blog-grids" style="margin-top: -13px;">							
+							<div class="blog-grid-right">
+							<volist name="theme" id="vo">						
+								<h5 style="font-family: miaomi;margin-bottom: 5px; font-size: 16px;"><a href="{:U('Travel/travel',array('theme_tid'=>$vo['tid']))}">{$vo.tname}</a> </h5>
+								</volist>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						
+					
+
+
+
+						<div class="insta">
+
+						<h4 style="font-family: miaomi">最新发布结伴</h4>
+                     <volist name="fresh" id="vo">	
+					    <div class="blog-grids">
+							<div class="blog-grid-left">
+								<a href="{:U('Recommend/content',array('id'=>$vo['id']))}"><img src="__PUBLIC__/Recommend/photo/{$vo.pic}" class="img-responsive" alt=""></a>
+							</div>
+							<div class="blog-grid-right">
+								<input type="hidden" value="{$vo.id}<"></input>
+								<h5 style="font-family: miaomi ;margin-top:10px;"><a href="{:U('Recommend/content',array('id'=>$vo['id']))}">{$vo.name}</a> </h5>
+								<img src="__PUBLIC__/Home/images/red_eye.png" style="width: 18px;margin-top: -3px;"><span style="font-size: 15px;">{$vo.hits}</span>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					 </volist>
+
+					
+
+
+
+
+					
+					</div>										
+					</div>					
+				</div>			
+		</div>
+		<div class="clearfix"></div>
+		<!-- technology-right -->
+	</div>
+</div>
+
+	<include file="./Application/Public/footer.html" />
+</body>
+</html>

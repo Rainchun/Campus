@@ -1,0 +1,54 @@
+[ 2016-12-02T16:59:59+08:00 ] 127.0.0.1 /CampusAlliance/Public/Home/js/jquery-2.2.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002769s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-02T17:00:10+08:00 ] 127.0.0.1 /CampusAlliance/Public/Home/js/jquery-2.2.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-02T17:00:19+08:00 ] 127.0.0.1 /CampusAlliance/Public/Home/js/jquery-2.2.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004899s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-02T17:00:29+08:00 ] 127.0.0.1 /CampusAlliance/Public/Home/js/jquery-2.2.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003640s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-02T17:00:50+08:00 ] 127.0.0.1 /CampusAlliance/Public/Home/js/jquery-2.2.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002385s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-02T17:00:57+08:00 ] 127.0.0.1 /CampusAlliance/Public/Home/js/jquery-2.2.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+ERR: 无法加载控制器:Home
+

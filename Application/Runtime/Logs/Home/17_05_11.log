@@ -1,0 +1,38 @@
+[ 2017-05-11T08:41:12+08:00 ] ::1 /Campus/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=1 ) LIMIT 1   [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dca_carousel` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `dca_carousel` WHERE ( isfirst=1 ) ORDER BY createtime desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( ischeck='1' ) ORDER BY  hits desc LIMIT 4   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   ORDER BY creatime desc LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined index: uname /Applications/MAMP/htdocs/Campus/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 336 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+

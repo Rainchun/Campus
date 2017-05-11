@@ -1,0 +1,21 @@
+[ 2016-12-06T14:06:22+08:00 ] 127.0.0.1 /CampusAlliance/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014846s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000948s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001173s ]
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.037488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.037697s ]
+

@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<include file="./Application/Public/head.html" />
+<link href="__PUBLIC__/Home/css/animate.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="header" id="ban">
+	
+	<include file="./Application/Public/nav.html" />
+
+<!-- banner -->
+
+<div>
+   <div class="head-img-top">
+      <h2>{$carousel.title}</h2>
+	  <p>{$carousel.sketch}</p>
+	  <!-- <a href="singlepage.html">READ MORE</a> -->
+	 </div>
+    <div class="img">
+      <img src="__PUBLIC__/Admin/Uploads/carouselphoto/{$carousel.pic}" style="height: 482px;width: 1400px">
+      </div>
+ </div>
+
+
+<div class="services w3l wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+		<div class="container">
+			<div class="grid_3 grid_5">
+				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					<ul id="myTab" class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#expeditions" id="expeditions-tab" role="tab" data-toggle="tab" aria-controls="expeditions" aria-expanded="true">城市</a></li>
+						<li role="presentation" class=""><a href="#safari" role="tab" id="safari-tab" data-toggle="tab" aria-controls="safari">景点</a></li>
+						<li role="presentation" class=""><a href="#trekking" role="tab" id="trekking-tab" data-toggle="tab" aria-controls="trekking">活动</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade" id="expeditions" aria-labelledby="expeditions-tab">
+							
+							<div class="col-md-4 col-sm-5 tab-image">
+								<img src="__PUBLIC__/Home/images/f2.jpg" class="img-responsive" alt="Wanderer">
+							</div>
+							<div class="col-md-4 col-sm-5 tab-image">
+								<img src="__PUBLIC__/Home/images/f4.jpg" class="img-responsive" alt="Wanderer">
+							</div>
+							<div class="col-md-4 col-sm-5 tab-image">
+								<img src="__PUBLIC__/Home/images/f3.jpg" class="img-responsive" alt="Wanderer">
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						
+						
+						<div role="tabpanel" class="tab-pane fade" id="safari" aria-labelledby="safari-tab">
+							<div class="col-md-4 col-sm-5 tab-image">
+								<img src="__PUBLIC__/Home/images/t1.jpg" class="img-responsive" alt="Wanderer">
+							</div>
+							<div class="col-md-4 col-sm-5 tab-image">
+								<img src="__PUBLIC__/Home/images/t2.jpg" class="img-responsive" alt="Wanderer">
+							</div>
+							<div class="col-md-4 col-sm-5 tab-image">
+								<img src="__PUBLIC__/Home/images/t3.jpg" class="img-responsive" alt="Wanderer">
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade active in" id="trekking" aria-labelledby="trekking-tab">
+
+							<div class="col-md-4 col-sm-5 tab-image">
+								<img src="__PUBLIC__/Home/images/m2.jpg" class="img-responsive" alt="Wanderer">
+							</div>
+							<div class="col-md-4 col-sm-5 tab-image">
+								<img src="__PUBLIC__/Home/images/m1.jpg" class="img-responsive" alt="Wanderer">
+							</div>
+							<div class="col-md-4 col-sm-5 tab-image">
+								<img src="__PUBLIC__/Home/images/m3.jpg" class="img-responsive" alt="Wanderer">
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="content_top">
+   <div class="container">
+   	  <h4 class="m_3" style="font-family:miaomi">探索精彩大连</h4>
+   	  <div class="grid_1">
+
+   	   <volist name="redmodel" id="v">
+		<div class="col-md-3 box_1">
+			<a href="{:U('Recommend/content',array('id'=>$v['id']))}"><img src="__PUBLIC__/Home/uploads/recmdphoto/{$v.pic}" class="img-responsive" style="width: 300px;height: 200px" /></a>
+		    <div class="box_2">
+			  <div class="special-wrap"><div class="hot_offer"><span class="m_11" style="background-color: rgba(0,0,0,.6);">Hot<br/>最热</span></div><div class="forclosure"><span class="m_12" style="background-color: rgba(0,0,0,.6);">New<br/>最新</span></div></div>
+			</div>
+		   <div class="box_3">
+			 <h3 style="margin-bottom: 5px"><a href="{:U('Recommend/content',array('id'=>$v['id']))}">{$v.name}</a></h3>
+			 <div class="boxed_mini_details clearfix">
+			      <span class="area first"><strong>发布人</strong><i class="fa fa-plane icon1"> </i><img src="__PUBLIC__/Home/images/user.png" style="width: 13px;margin-left: 3px;" >
+			      {$v.uname}</span>
+			      <span class="status"><strong>浏览量</strong><i class="fa fa-retweet icon1"> </i>
+			      <img src="__PUBLIC__/Home/images/eye.png" style="width: 13px;margin-left: 3px;" >
+			      {$v.hits}</span>
+			      <span class="bedrooms last"><strong>觉得很棒</strong><i class="fa fa-bed"></i>
+			      <img src="__PUBLIC__/Home/images/zan.png" style="width: 13px; margin-left: 9px;" >
+			      {$v.praise}</span>
+             </div>
+		   </div>
+		</div>
+     </volist>
+
+		<div class="clearfix"> </div>
+	</div>
+	   <div class="content_bottom">
+		<div class="col-md-2">
+			<div class="widget">
+                <div class="title"><h3><i class="fa fa-meh-o men"> </i>主题推荐</h3></div>
+                  <ul class="real-widget">
+                        <li><a href="{:U('Home/Recommend/lists/rtype_rid/1')}">美食({$rtype1})</a></li>
+                	    <li><a href="{:U('Home/Recommend/lists/rtype_rid/2')}">人文({$rtype2})</a></li>
+                	    <li><a href="{:U('Home/Recommend/lists/rtype_rid/3')}">购物({$rtype3})</a></li>
+                		<li><a href="{:U('Home/Recommend/lists/rtype_rid/4')}">旅游观光({$rtype4})</a></li>
+                		<li><a href="{:U('Home/Recommend/lists/rtype_rid/5')}">娱乐休闲({$rtype5})</a></li>
+                		<li><a href="{:U('Home/Recommend/lists/rtype_rid/6')}">沙滩海岛({$rtype6})</a></li>
+
+                  </ul>
+                </ul>
+             </div>
+             <div class="widget">
+                <div class="title"><h3><i class="fa fa-meh-o men"> </i>结伴同游</h3></div>
+                  <ul class="real-widget"><li><a href="{:U('Home/Travel/travel/theme_tid/1')}">一起浪({$themetype1})</a></li>
+                	<li><a href="{:U('Home/Travel/travel/theme_tid/2')}">粗去吃({$themetype2})</a></li>
+                	<li><a href="{:U('Home/Travel/travel/theme_tid/3')}">约你看电影({$themetype3})</a></li>
+                	<li><a href="{:U('Home/Travel/travel/theme_tid/4')}">图书馆不见不散({$themetype4})</a></li>
+                	<li><a href="{:U('Home/Travel/travel/theme_tid/5')}">购物({$themetype5})</a></li>
+                		
+                </ul>
+             </div>
+		</div>
+		<div class="col-md-7">	
+		   <div class="sap_tabs">
+				<div id="horizontalTab" style="display: block; width: 100%;">
+						 <div class="tab_grid">
+							  <ul class="resp-tabs-list">
+							  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span class="miaomi" style="font-size: 28px;">喂,约不约~</span></li>
+								 
+								  <div class="clearfix"></div>
+							  </ul>	
+							</div>	
+							    <div>
+
+							    	<ul class="tab_img tab_1">
+									
+									<volist name="travel" id="vo">
+										<li class="last" style="margin-right: 20px;margin-bottom: 30px">
+										  <div class="client_box1">
+					       				    <a href="{:U('Travel/detail',array('id'=>$vo['id']))}"><img src="__PUBLIC__/Home/uploads/travelphoto/{$vo.pic}" class="img-responsive" style="width: 200px;height: 150px" /></a>
+					       				     
+					       				     <h3 class="m_1"><a href="{:U('Travel/detail',array('id'=>$vo['id']))}">{$vo.titles}</a></h3>
+					       				    <div class="boxed_mini_details clearfix">
+			                                    <span class="area first">
+			                                    <img src="__PUBLIC__/Home/images/user.png" style="width: 13px;margin-left: 3px;" >
+                                                {$vo.uname}</span>
+			                                    <span class="status">
+			                                    <img src="__PUBLIC__/Home/images/eye.png" style="width: 13px;margin-left: 3px;" >
+			                                     {$vo.hits}</span>
+			                                    <span class="bedrooms last">
+			                                    <img src="__PUBLIC__/Home/images/zan.png" style="width: 13px; margin-left: 9px;" >
+			                                    {$vo.want}</span>
+                                            </div>
+					       				  </div>
+										</li>
+                                      </volist>
+
+										<div class="clearfix"></div>
+										</ul>
+										
+
+							     </div>	
+
+							     
+							    
+				  </div>
+           </div>
+        </div>
+ <div class="col-md-3">
+			<div class="blog_list2">
+				 <h3>联系我们</h3>
+					 <ul class="blog-list3 list_1">
+					 	<li class="blog-list3-img"><img src="__PUBLIC__/Home/images/pic12.jpg" class="img-responsive" alt=""/></li>
+					 	<li class="blog-list3-desc">
+					 	  <h4><a href="#">宋雯静</a></h4>
+					 	    <ul class="admin_desc">
+							    <li class="list_top"><i class="fa fa-phone-square ph"> </i>
+								<p class="m_2">20-1257-2587</p></li>
+								<div class="clearfix"> </div>
+								<li class="list_top"><i class="fa fa-envelope ph"> </i>
+								<p class="m_2"><a href="malito:mail@demolink.org">mail(at)realist.com</a></p></li>
+								<div class="clearfix"> </div>
+					        </ul>
+		                 </li>
+					 	<div class="clearfix"> </div>
+					 </ul>
+					 <ul class="blog-list3 list_1">
+					 	<li class="blog-list3-img"><img src="__PUBLIC__/Home/images/pic13.jpg" class="img-responsive" alt=""/></li>
+					 	<li class="blog-list3-desc">
+					 	  <h4><a href="#">毛思懿</a></h4>
+					 	    <ul class="admin_desc">
+							    <li class="list_top"><i class="fa fa-phone-square ph"> </i>
+								<p class="m_2">20-1257-2587</p></li>
+								<div class="clearfix"> </div>
+								<li class="list_top"><i class="fa fa-envelope ph"> </i>
+								<p class="m_2"><a href="malito:mail@demolink.org">mail(at)realist.com</a></p></li>
+								<div class="clearfix"> </div>
+					        </ul>
+		                 </li>
+					 	<div class="clearfix"> </div>
+					 </ul>
+					 <ul class="blog-list3">
+					 	<li class="blog-list3-img"><img src="__PUBLIC__/Home/images/pic7.jpg" class="img-responsive" alt=""/></li>
+					 	<li class="blog-list3-desc">
+					 	  <h4><a href="#">葛蕾</a></h4>
+					 	    <ul class="admin_desc">
+							    <li class="list_top"><i class="fa fa-phone-square ph"> </i>
+								<p class="m_2">20-1257-2587</p></li>
+								<div class="clearfix"> </div>
+								<li class="list_top"><i class="fa fa-envelope ph"> </i>
+								<p class="m_2"><a href="malito:mail@demolink.org">mail(at)realist.com</a></p></li>
+								<div class="clearfix"> </div>
+					        </ul>
+		                 </li>
+					 	<div class="clearfix"> </div>
+					 </ul>
+			    </div>
+		</div>
+        <div class="clearfix"> </div>
+    </div>
+   </div>
+</div>	
+
+<include file="./Application/Public/footer.html" />
+      
+</body>
+</html>

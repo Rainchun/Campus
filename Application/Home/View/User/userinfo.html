@@ -1,0 +1,184 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="__PUBLIC__/UCenter/css/safe/css.css" />
+    <link rel="stylesheet" href="__PUBLIC__/UCenter/css/safe/common.min.css" />
+    <link rel="stylesheet" href="__PUBLIC__/UCenter/css/safe/ms-style.min.css" />
+    <link rel="stylesheet" href="__PUBLIC__/UCenter/css/safe/personal_member.min.css" />
+    <link rel="stylesheet" href="__PUBLIC__/UCenter/css/safe/Snaddress.min.css" />
+    <link rel="stylesheet" href="__PUBLIC__/UCenter/css/sui.css" />
+
+    <include file="./Application/Public/head.html" />
+    <!-- <script type="text/javascript" src="__PUBLIC__/UCenter/js/jquery-1.9.1.min.js" ></script>
+    <script type="text/javascript" src="__PUBLIC__/UCenter/js/sui.js" ></script> -->
+    <style>
+    body {
+        background: #f5f5f5;
+
+    }
+    
+      .sui-table th{
+        padding: 16px 8px;
+        line-height: 18px;
+        text-align: center;
+        vertical-align: middle;
+        border-top: 1px solid #e6e6e6;
+        font-weight: normal;
+        font-size: 14px;
+        color: #333333;
+       }
+       .sui-table td {
+        padding: 16px 8px;
+        line-height: 18px;
+        text-align: center;
+        vertical-align: middle;
+        border-top: 1px solid #e6e6e6;
+        font-weight: normal;
+        font-size: 12px;
+        color: #333333;
+       }
+    }
+  img {
+      max-width: 100%;
+      height: auto;
+      /*vertical-align: bottom;*/
+      border: 0;
+      -ms-interpolation-mode: bicubic;
+      margin-left: -10px;
+  }
+a{
+  color: #000000;
+}
+    </style>
+  </head>
+
+  <body >
+    <div class="header" id="ban"  >
+    <include file="./Application/Public/nav.html" />
+  </div>
+
+  
+    <div id="ms-center" class="personal-member" style="margin-top: -19px;margin-left: 100px">
+      <div class="cont">
+        <div class="cont-side">
+             <include file="./Application/Public/User/navbar.html" />
+        </div>
+
+        
+        <div class="cont-main" >
+          <div style="margin-left:20px;padding-top: 45px;">
+
+           <div class="main-wrap" style="width: 950px">
+            <h3>
+                          <strong>个人资料</strong>
+                      </h3>
+            <div class="user-profile clearfix">
+              <div class="user-profile-wrap">
+                <div class="profile-avatar">
+                  <img src="__PUBLIC__/Home/userphoto/{$userInfos.upic}" height="150" width="130">
+                  <!-- <a href="#" name="">编辑头像</a>  -->
+                 
+                </div>
+              </div>
+              <div class="profile-info">
+                <div class="control-group clearfix ">
+                  <div class="controls lh26">
+                    <label class="control-label"><em>*</em><span style="margin-left: 10px;">用户名:</span> 
+                   
+                     {$userInfos.uname}
+                      <!-- <img src="__PUBLIC__/UCenter/img/success.png " /><span style="margin-left: 10px;">一旦完善成功,不能修改</span> -->
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class=" tab-switch personal-wrap-show" style="margin-top: 30px">
+              
+                <div class="control-group clearfix">
+                  <label class="control-label"><em>*&nbsp;</em>真实姓名：</label>
+                  <div class="controls">
+                   {$userInfos.realname}
+                  </div>
+                </div>
+
+                 <div class="control-group clearfix">
+                  <label class="control-label"><em>*&nbsp;</em>邮箱：</label>
+                  <div class="controls">
+                    {$userInfos.email}
+                  </div>
+                </div>
+               
+
+                <div class="control-group clearfix">
+                  <label class="control-label"><em>*&nbsp;</em>性别：</label> 
+                  <div id="gender" class="controls">
+
+                  <if condition="$userInfos.gender eq 0">
+                  
+                      <span>男</span>
+                    
+                    <else/>
+                    
+                      <span>女</span>
+                    
+                    </if>
+                    
+                 
+               
+                  </div>
+                </div>
+                
+                <div class="control-group clearfix">
+                  <label class="control-label">出生日期：</label>
+                  <div class="controls">
+                    <span id="" class="dateSelector">
+                    {$userInfos.birthday}
+                    <i class="date-icons"></i>
+                    </span>
+                    <i class="date-line">－星座：</i>{$userInfos.constellation}
+                  </div>
+                  <div id="" class="error-place">
+                    <i class="tips"></i><span><a target="_blank" ><img src="__PUBLIC__/UCenter/img/smrz01.png" style="margin-bottom: -4px;margin-right: 10px;"/>警惕钓鱼网站，慎重约伴出行</a></span>
+                  </div>
+                </div>
+
+                <div class="control-group clearfix">
+                  <label class="control-label">个性签名：</label>
+                  <div class="controls">
+                    
+                    {$userInfos.info}
+                  </div>
+                </div>
+
+                <div class="control-group clearfix priority-low">
+                  <label class="control-label">&nbsp;</label>
+                  <div style="float:left;">
+                    <a href="{:U('edit_info')}"  class="ms-stand-btn1" >修改</a>
+                    <!-- <input type="submit" value="保存" class="ms-stand-btn1"> -->
+                  </div>
+                  <div id="" class="error-place"></div>
+                  <div class="error-place mt29"></div>
+                </div>
+         
+            </div>
+          </div>
+        </div>
+     </form>     
+              
+           
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+    <div class="clear "></div>
+ </div>
+  <include file="./Application/Public/footer.html" />   
+    
+  </body>
+
+</html>

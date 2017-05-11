@@ -1,0 +1,30 @@
+[ 2017-04-17T20:20:50+08:00 ] ::1 /Campus/Public/UCenter/css/safe/images/menu-treeNeck.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-04-17T20:20:50+08:00 ] ::1 /Campus/Public/UCenter/css/safe/images/littleIcon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+
+[ 2017-04-17T20:20:50+08:00 ] ::1 /Campus/Public/UCenter/css/safe/images/tipIcon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-04-17T20:50:22+08:00 ] ::1 /Campus/Public/UCenter/css/safe/images/menu-treeNeck.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-04-17T20:50:22+08:00 ] ::1 /Campus/Public/UCenter/css/safe/images/littleIcon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-04-17T20:50:22+08:00 ] ::1 /Campus/Public/UCenter/css/safe/images/tipIcon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+

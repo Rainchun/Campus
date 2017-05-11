@@ -1,0 +1,40 @@
+@font-face{
+	font-family: 'jianyi';
+	src:url(font/Monoton.ttf)format('truetype');
+}
+@font-face {
+   font-family: 'OpenSans-Regular';
+   src: url(../Home/fonts/OpenSans-Regular.woff)format('woff');
+}
+	.row{
+    margin-left: -15px;
+    margin-right: -15px;
+	}
+	.overlay:hover {
+    opacity: 1;
+}
+.overlay {
+    height: 100%;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 0px;
+    opacity: 0;
+    border: solid 5px #63c6ae;
+
+}
+.carousel-content {
+    text-align: left;
+    padding: 10px 25px;
+    border-left: solid 1px #dbe1e7;
+
+}
+.col-md-3{
+	margin-bottom: 30px;
+	float: left;
+}
+
+ .dabiaoti a,h1{
+    color:#FF1177;
+	font-family:'jianyi';
+}

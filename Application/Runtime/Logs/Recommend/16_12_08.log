@@ -1,0 +1,27 @@
+[ 2016-12-08T20:38:29+08:00 ] 127.0.0.1 /Campus/Recommend/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+ERR: 无法加载控制器:Lists
+
+[ 2016-12-08T20:42:04+08:00 ] 127.0.0.1 /Campus/Recommend/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+ERR: 无法加载控制器:Lists
+
+[ 2016-12-08T20:42:47+08:00 ] 127.0.0.1 /Campus/Recommend/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+ERR: 无法加载控制器:Lists
+

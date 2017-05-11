@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Baseball Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
+<include file="./Application/Public/head.html" />
+
+<style type="text/css">
+
+@font-face{
+  font-family: 'Iceland';
+  font-weight: 400;
+  src:url(__PUBLIC__/Recommend/font/Iceland.woff)format('woff');
+}
+
+  .row{
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .overlay:hover {
+    opacity: 1;
+}
+.overlay {
+    height: 100%;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 0px;
+    opacity: 0;
+    border: solid 5px #63c6ae;
+
+}
+.carousel-content {
+    text-align: left;
+    padding: 10px 25px;
+    border-left: solid 1px #dbe1e7;
+
+}
+.col-md-3{
+  margin-bottom: 30px;
+  float: left;
+}
+.dabiaoti{
+  width: 800px;
+  margin: 0 auto;
+  margin-top:10px;
+}
+ .dabiaoti h1{
+  color:#FF1177;
+  font-family:"Iceland";
+  font-size: 80px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-right: 10px;
+
+}
+.wtuijian{
+  width: 80px;
+    margin-left: 810px;
+    margin-top: -60px;
+    margin-bottom: 60px;}
+.wtuijian a{
+  font-family: "微软雅黑" ;
+  color: #5A5A5A;
+  
+ }
+ .wtuijian a:hover{
+  color: #999;
+ }
+.dabiaoti h1:hover{
+ 
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FF1177,
+               0 0 70px  #FF1177,
+               0 0 80px  #FF1177,
+               0 0 100px #FF1177,
+               0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FF1177,
+               0 0 35px #FF1177,
+               0 0 40px #FF1177,
+               0 0 50px #FF1177,
+               0 0 75px #FF1177;
+  }
+}
+
+.chakangengduo{
+  text-align: center;
+  text-decoration: none;
+  font-family: "微软雅黑";
+  margin-bottom: 50px;
+}
+.chakangengduo a{
+  color: #5A5A5A;
+}
+.chakangengduo a:hover{
+  color: #999;
+}
+.zhengti{
+  width: 265px;
+  height: 400px;
+}
+
+</style>
+
+
+</head>
+<body>
+  <div class="main-content">
+  <include file="./Application/Public/nav.html" />
+      
+       
+<div class="all">   
+
+    <div class="dabiaoti"><h1>Enjoy Dalian</h1></div>
+    <div class="wtuijian"><a href="{:U('Recommend/Tuijian/tuijian')}">我要推荐</a></div>
+
+
+    <volist name="redmodel" id="vo">
+    <div class="ca-hover">
+        <div class="col-md-3">
+        <div class="ca-hover">
+
+        <div class="zhengti">
+          <div class="carousel-img">
+            <img src="__PUBLIC__/Recommend/photo/{$vo.pic}" width="265" height="166" alt="Carousel Img">
+          </div>
+          <div class="carousel-avatar av1">
+          </div>
+          <div class="carousel-content">
+          <input type="hidden" value="{$vo.id}">
+            <h3 style="font-family: 微软雅黑;text-align: center;">{$vo.name}</h3>
+            <p style="font-family: 微软雅黑">{$vo.cause}</p>
+          </div>
+
+          </div>
+        <a href="{:U('Content/content',array('id'=>$vo['id']))}"><div class="overlay"></div></a>
+        </div>
+        </div>
+        </div>
+</volist>
+
+       <!--  <div class="col-md-3">
+        <div class="ca-hover">
+          <div class="carousel-img">
+            <img src="__PUBLIC__/Recommend/img/c01.jpg" alt="Carousel Img">
+          </div>
+          <div class="carousel-avatar av1">
+          </div>
+          <div class="carousel-content">
+            <h3>Lorem ipsum dolor sit amet consectetur</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
+          </div>
+        <div class="overlay"></div>
+        </div>
+        </div> -->
+
+      
+
+      </div><!---ROW-------->
+
+     <div style="clear: both;">
+<div style="text-align: center;">{$link}</div>
+
+    
+</div><!---ALL---->
+    
+
+
+
+  
+
+
+
+
+
+</div>
+<!---------main-content结束--->
+
+</body> 
+</html>

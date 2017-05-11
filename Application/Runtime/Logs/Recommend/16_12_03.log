@@ -1,0 +1,893 @@
+[ 2016-12-03T11:21:07+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003171s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0554s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\52b8c6f3a1fe6595dcdd19993f475471.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001730s ]
+
+[ 2016-12-03T11:21:25+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Tuijian/tuijian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\fc8ec820a6d8dd2da816564271d5834b.php 第 130 行.
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\fc8ec820a6d8dd2da816564271d5834b.php 第 213 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001729s ]
+
+[ 2016-12-03T11:21:59+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=2 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\52b8c6f3a1fe6595dcdd19993f475471.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2016-12-03T11:22:07+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( id=27 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT dca_user.uname,dca_recommend.rid FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.uid =dca_user.uid   WHERE ( dca_recommend.id=27 )  [ RunTime:0.0532s ]
+SQL: SELECT dca_rtype.rname FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rid =dca_rtype.rid   WHERE ( dca_rtype.rid=2 )  [ RunTime:0.0223s ]
+SQL: SHOW COLUMNS FROM `dca_comment` [ RunTime:0.0479s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_comment` WHERE ( id=27 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dca_comment` INNER JOIN  dca_user  ON dca_comment.uname =dca_user.uname   WHERE ( dca_comment.id=27 ) ORDER BY cid desc LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\576f894e361d975c5b16e08d471e8985.php 第 242 行.
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\576f894e361d975c5b16e08d471e8985.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002032s ]
+
+[ 2016-12-03T11:22:13+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=3 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=3 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\52b8c6f3a1fe6595dcdd19993f475471.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2016-12-03T11:22:16+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Tuijian/tuijian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\fc8ec820a6d8dd2da816564271d5834b.php 第 130 行.
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\fc8ec820a6d8dd2da816564271d5834b.php 第 213 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2016-12-03T11:23:34+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\52b8c6f3a1fe6595dcdd19993f475471.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004249s ]
+
+[ 2016-12-03T11:23:36+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT dca_user.uname,dca_recommend.rid FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.uid =dca_user.uid   WHERE ( dca_recommend.id=23 )  [ RunTime:0.0006s ]
+SQL: SELECT dca_rtype.rname FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rid =dca_rtype.rid   WHERE ( dca_rtype.rid=1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dca_comment` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_comment` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dca_comment` INNER JOIN  dca_user  ON dca_comment.uname =dca_user.uname   WHERE ( dca_comment.id=23 ) ORDER BY cid desc LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\576f894e361d975c5b16e08d471e8985.php 第 242 行.
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\576f894e361d975c5b16e08d471e8985.php 第 338 行.
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\576f894e361d975c5b16e08d471e8985.php 第 338 行.
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\576f894e361d975c5b16e08d471e8985.php 第 338 行.
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\576f894e361d975c5b16e08d471e8985.php 第 338 行.
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\576f894e361d975c5b16e08d471e8985.php 第 338 行.
+NOTIC: [8] Undefined index: uname C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Recommend\576f894e361d975c5b16e08d471e8985.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2016-12-03T11:23:36+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/images/favicon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001615s ]
+
+[ 2016-12-03T11:44:57+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2016-12-03T11:44:59+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Tuijian/tuijian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002038s ]
+
+[ 2016-12-03T11:49:41+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2016-12-03T11:49:56+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT dca_user.uname,dca_recommend.rid FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.uid =dca_user.uid   WHERE ( dca_recommend.id=18 )  [ RunTime:0.0005s ]
+SQL: SELECT dca_rtype.rname FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rid =dca_rtype.rid   WHERE ( dca_rtype.rid=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dca_comment` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_comment` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_comment` INNER JOIN  dca_user  ON dca_comment.uname =dca_user.uname   WHERE ( dca_comment.id=18 ) ORDER BY cid desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2016-12-03T11:50:29+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001758s ]
+
+[ 2016-12-03T11:50:30+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT dca_user.uname,dca_recommend.rid FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.uid =dca_user.uid   WHERE ( dca_recommend.id=23 )  [ RunTime:0.0004s ]
+SQL: SELECT dca_rtype.rname FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rid =dca_rtype.rid   WHERE ( dca_rtype.rid=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dca_comment` [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_comment` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_comment` INNER JOIN  dca_user  ON dca_comment.uname =dca_user.uname   WHERE ( dca_comment.id=23 ) ORDER BY cid desc LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000622s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002115s ]
+
+[ 2016-12-03T11:50:30+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/images/favicon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000521s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+
+[ 2016-12-03T11:52:14+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/repcomment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002325s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `dca_user` WHERE `uname` = 'swj'  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `dca_repcomment` [ RunTime:0.0688s ]
+SQL: SHOW COLUMNS FROM `dca_comment` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `dca_comment` WHERE ( cid=42 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\CampusAlliance\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\CampusAlliance\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `dca_repcomment` (`cid`,`rcontent`,`uid`,`creatime`) VALUES ('42','','2','2016-12-03 11:52:14') [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002115s ]
+
+[ 2016-12-03T11:52:15+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT dca_user.uname,dca_recommend.rid FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.uid =dca_user.uid   WHERE ( dca_recommend.id=23 )  [ RunTime:0.0005s ]
+SQL: SELECT dca_rtype.rname FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rid =dca_rtype.rid   WHERE ( dca_rtype.rid=1 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dca_comment` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_comment` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_comment` INNER JOIN  dca_user  ON dca_comment.uname =dca_user.uname   WHERE ( dca_comment.id=23 ) ORDER BY cid desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2016-12-03T11:52:15+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/images/favicon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+
+[ 2016-12-03T11:52:15+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/images/favicon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+
+[ 2016-12-03T11:54:00+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2016-12-03T11:54:11+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT dca_user.uname,dca_recommend.rid FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.uid =dca_user.uid   WHERE ( dca_recommend.id=23 )  [ RunTime:0.0004s ]
+SQL: SELECT dca_rtype.rname FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rid =dca_rtype.rid   WHERE ( dca_rtype.rid=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dca_comment` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_comment` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dca_comment` INNER JOIN  dca_user  ON dca_comment.uname =dca_user.uname   WHERE ( dca_comment.id=23 ) ORDER BY cid desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2016-12-03T11:54:11+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/images/favicon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+
+[ 2016-12-03T11:55:13+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003006s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2016-12-03T11:55:21+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001981s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 8,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001590s ]
+
+[ 2016-12-03T11:55:23+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002462s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001707s ]
+
+[ 2016-12-03T11:56:01+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Tuijian/tuijian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2016-12-03T11:58:52+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001685s ]
+
+[ 2016-12-03T11:59:25+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2016-12-03T11:59:42+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2016-12-03T11:59:55+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2016-12-03T12:00:31+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001948s ]
+
+[ 2016-12-03T12:01:26+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001848s ]
+
+[ 2016-12-03T12:01:48+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2016-12-03T12:02:23+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002698s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001711s ]
+
+[ 2016-12-03T12:02:40+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001677s ]
+
+[ 2016-12-03T12:04:06+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2016-12-03T12:04:17+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT dca_user.uname,dca_recommend.rid FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.uid =dca_user.uid   WHERE ( dca_recommend.id=23 )  [ RunTime:0.0004s ]
+SQL: SELECT dca_rtype.rname FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rid =dca_rtype.rid   WHERE ( dca_rtype.rid=1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dca_comment` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_comment` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_comment` INNER JOIN  dca_user  ON dca_comment.uname =dca_user.uname   WHERE ( dca_comment.id=23 ) ORDER BY cid desc LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002101s ]
+
+[ 2016-12-03T12:04:17+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Content/content/id/images/favicon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001869s ]
+
+[ 2016-12-03T12:04:24+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 8,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2016-12-03T12:04:26+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Index/lists/rid/1/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( rid=1 ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2016-12-03T12:04:56+08:00 ] 127.0.0.1 /CampusAlliance/Recommend/Tuijian/tuijian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001665s ]
+

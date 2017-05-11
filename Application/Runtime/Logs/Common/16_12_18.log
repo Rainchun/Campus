@@ -1,0 +1,18 @@
+[ 2016-12-18T19:59:03+08:00 ] 127.0.0.1 /Campus/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001542s ]
+ERR: 无法加载模块:Fonts
+
+[ 2016-12-18T20:02:46+08:00 ] 127.0.0.1 /Campus/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+ERR: 无法加载模块:Fonts
+
+[ 2016-12-18T22:22:05+08:00 ] 127.0.0.1 /Campus/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载模块:Fonts
+

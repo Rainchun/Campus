@@ -1,0 +1,41 @@
+[ 2016-11-15T16:11:22+08:00 ] 127.0.0.1 /CampusAlliance/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Undefined index: telephone C:\wamp\www\CampusAlliance\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.266803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.267072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.031806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008486s ]
+
+[ 2016-11-15T18:38:24+08:00 ] 127.0.0.1 /CampusAlliance/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.191231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.191449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010420s ]
+

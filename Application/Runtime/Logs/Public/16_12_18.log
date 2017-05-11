@@ -1,0 +1,405 @@
+[ 2016-12-18T23:29:03+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003502s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:29:03+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004869s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:29:03+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002758s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:29:10+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002298s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:29:10+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002997s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:29:10+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002005s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:32:56+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:32:56+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002910s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:33:28+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004108s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:33:28+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002965s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:34:16+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000801s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:34:16+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003405s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:34:16+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:34:16+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003436s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:34:16+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:34:16+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002547s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:35:15+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:35:15+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002381s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:35:15+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002408s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:35:15+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002316s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:35:15+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:37:18+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:37:19+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002893s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:37:19+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:37:34+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:37:34+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:37:34+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003581s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:39:31+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002307s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:39:31+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:39:31+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:39:31+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:39:32+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:39:32+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:42:21+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:42:22+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:42:22+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:42:22+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001983s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:42:22+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:42:22+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:43:40+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002754s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:43:40+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003276s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:43:40+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002367s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:43:41+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:43:41+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/to-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002068s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2016-12-18T23:43:41+08:00 ] 127.0.0.1 /Campus/Public/vendor/plugins/markdown/bootstrap-markdown.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+ERR: 无法加载控制器:Vendor
+

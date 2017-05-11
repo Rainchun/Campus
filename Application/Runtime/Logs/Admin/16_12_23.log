@@ -1,0 +1,1492 @@
+[ 2016-12-23T16:19:19+08:00 ] 127.0.0.1 /Campus/Admin/Index/index_gallery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+SQL: SHOW COLUMNS FROM `dca_carousel` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `dca_carousel`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000411s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000578s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2016-12-23T16:19:19+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003156s ]
+
+[ 2016-12-23T16:19:19+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+
+[ 2016-12-23T16:19:19+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-12-23T16:19:19+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-12-23T16:19:19+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+
+[ 2016-12-23T16:19:28+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0869s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000793s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2016-12-23T16:19:28+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-12-23T16:19:28+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-12-23T16:19:28+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+
+[ 2016-12-23T16:19:28+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-12-23T16:19:28+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-12-23T16:19:33+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2016-12-23T16:19:33+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-12-23T16:19:33+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+
+[ 2016-12-23T16:19:33+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+
+[ 2016-12-23T16:19:33+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018470s ]
+
+[ 2016-12-23T16:19:33+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+
+[ 2016-12-23T16:19:33+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001726s ]
+
+[ 2016-12-23T16:19:40+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001917s ]
+
+[ 2016-12-23T16:19:40+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-12-23T16:19:40+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+
+[ 2016-12-23T16:19:40+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-12-23T16:19:40+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+
+[ 2016-12-23T16:19:40+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+
+[ 2016-12-23T16:19:40+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+
+[ 2016-12-23T16:19:44+08:00 ] 127.0.0.1 /Campus/Admin/Index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+
+[ 2016-12-23T16:19:44+08:00 ] 127.0.0.1 /Campus/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000577s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2016-12-23T16:19:44+08:00 ] 127.0.0.1 /Campus/Admin/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002246s ]
+
+[ 2016-12-23T16:19:58+08:00 ] 127.0.0.1 /Campus/Admin/Index/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `dca_admin` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `dca_admin` WHERE `adminname` = 'swj' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2016-12-23T16:19:59+08:00 ] 127.0.0.1 /Campus/Admin/Index/index_gallery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002376s ]
+SQL: SHOW COLUMNS FROM `dca_carousel` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `dca_carousel`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2016-12-23T16:19:59+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-12-23T16:19:59+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+
+[ 2016-12-23T16:19:59+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+
+[ 2016-12-23T16:19:59+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+
+[ 2016-12-23T16:20:00+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+
+[ 2016-12-23T16:20:02+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2016-12-23T16:20:02+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-12-23T16:20:03+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+
+[ 2016-12-23T16:20:03+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-12-23T16:20:03+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+
+[ 2016-12-23T16:20:03+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+
+[ 2016-12-23T16:20:05+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2016-12-23T16:20:05+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+
+[ 2016-12-23T16:20:05+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-12-23T16:20:05+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-12-23T16:20:05+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+
+[ 2016-12-23T16:20:05+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+
+[ 2016-12-23T16:20:05+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000253s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001424s ]
+
+[ 2016-12-23T16:20:15+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid  INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid   WHERE ( id=41 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000540s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000716s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2016-12-23T16:20:15+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+
+[ 2016-12-23T16:20:15+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+
+[ 2016-12-23T16:20:15+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-12-23T16:20:15+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-12-23T16:20:15+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+
+[ 2016-12-23T16:20:24+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/editTuijian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\Campus\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\Campus\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\Campus\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] unlink() [<a href='function.unlink'>function.unlink</a>]: Invalid argument C:\wamp\www\Campus\Application\Admin\Controller\RecommendController.class.php 第 196 行.
+SQL: UPDATE `dca_recommend` SET `pic`='585cde485577e.jpg',`name`='测试3——edit',`rtype_rid`='1',`place`='测试3',`cause`='测试3',`creatime`='2016-12-23 16:20:24' WHERE `id` = 41 [ RunTime:0.0511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004394s ]
+
+[ 2016-12-23T16:20:25+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004875s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid  INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid   WHERE ( id=41 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000707s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003848s ]
+
+[ 2016-12-23T16:20:25+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+
+[ 2016-12-23T16:20:25+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001906s ]
+
+[ 2016-12-23T16:20:25+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002093s ]
+
+[ 2016-12-23T16:20:26+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+
+[ 2016-12-23T16:20:26+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003145s ]
+
+[ 2016-12-23T16:20:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004220s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004429s ]
+
+[ 2016-12-23T16:20:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001527s ]
+
+[ 2016-12-23T16:20:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+
+[ 2016-12-23T16:20:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+
+[ 2016-12-23T16:20:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+
+[ 2016-12-23T16:20:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002145s ]
+
+[ 2016-12-23T16:20:32+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001881s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001630s ]
+
+[ 2016-12-23T16:20:32+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+
+[ 2016-12-23T16:20:32+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001431s ]
+
+[ 2016-12-23T16:20:32+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-12-23T16:20:32+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-12-23T16:20:32+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001890s ]
+
+[ 2016-12-23T16:20:43+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid  INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid   WHERE ( id=45 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000659s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2016-12-23T16:20:43+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-12-23T16:20:43+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+
+[ 2016-12-23T16:20:43+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+
+[ 2016-12-23T16:20:43+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+
+[ 2016-12-23T16:20:43+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-12-23T16:20:46+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/editTuijian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\Campus\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\Campus\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `dca_recommend` SET `pic`='585ba1b2579d5.jpg',`name`='测试6',`rtype_rid`='5',`place`='测试6',`cause`='测试6',`creatime`='2016-12-23 16:20:46' WHERE `id` = 45 [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2016-12-23T16:20:47+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid  INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid   WHERE ( id=45 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000461s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000636s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2016-12-23T16:20:47+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+
+[ 2016-12-23T16:20:47+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+
+[ 2016-12-23T16:20:47+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+
+[ 2016-12-23T16:20:47+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-12-23T16:20:47+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_detail_edit/id/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+
+[ 2016-12-23T16:20:49+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000559s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000851s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2016-12-23T16:20:49+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-12-23T16:20:49+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-12-23T16:20:49+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+
+[ 2016-12-23T16:20:49+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+
+[ 2016-12-23T16:20:49+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+
+[ 2016-12-23T16:20:49+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+
+[ 2016-12-23T16:20:58+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/user_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002590s ]
+SQL: SHOW COLUMNS FROM `dca_rtype` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `dca_rtype`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( isadmin='0' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002722s ]
+
+[ 2016-12-23T16:20:58+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+
+[ 2016-12-23T16:20:58+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003048s ]
+
+[ 2016-12-23T16:20:58+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+
+[ 2016-12-23T16:20:58+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+
+[ 2016-12-23T16:20:58+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+
+[ 2016-12-23T16:21:03+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002775s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003806s ]
+
+[ 2016-12-23T16:21:03+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+
+[ 2016-12-23T16:21:03+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+
+[ 2016-12-23T16:21:03+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-12-23T16:21:03+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+
+[ 2016-12-23T16:21:03+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+
+[ 2016-12-23T16:22:46+08:00 ] 127.0.0.1 /Campus/Admin/Index/index_gallery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002667s ]
+SQL: SHOW COLUMNS FROM `dca_carousel` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `dca_carousel`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000586s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003104s ]
+
+[ 2016-12-23T16:22:46+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002064s ]
+
+[ 2016-12-23T16:22:46+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+
+[ 2016-12-23T16:22:46+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-12-23T16:22:46+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001619s ]
+
+[ 2016-12-23T16:22:47+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-12-23T16:22:56+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/user_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `dca_rtype` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `dca_rtype`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( isadmin='0' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2016-12-23T16:22:56+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+
+[ 2016-12-23T16:22:56+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-12-23T16:22:56+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+
+[ 2016-12-23T16:22:56+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+
+[ 2016-12-23T16:22:56+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+
+[ 2016-12-23T16:23:01+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/recmd_detail/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003199s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Undefined variable: rtype3 C:\wamp\www\Campus\Application\Runtime\Cache\Admin\be24839dd93efd963d295a5e26c3707e.php 第 819 行.
+NOTIC: [8] Undefined variable: rtype4 C:\wamp\www\Campus\Application\Runtime\Cache\Admin\be24839dd93efd963d295a5e26c3707e.php 第 823 行.
+NOTIC: [8] Undefined variable: rtype5 C:\wamp\www\Campus\Application\Runtime\Cache\Admin\be24839dd93efd963d295a5e26c3707e.php 第 827 行.
+NOTIC: [8] Undefined variable: rtype6 C:\wamp\www\Campus\Application\Runtime\Cache\Admin\be24839dd93efd963d295a5e26c3707e.php 第 831 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002779s ]
+
+[ 2016-12-23T16:23:01+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/recmd_detail/id/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001774s ]
+
+[ 2016-12-23T16:23:02+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/recmd_detail/id/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-12-23T16:23:02+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/recmd_detail/id/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+
+[ 2016-12-23T16:23:02+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/recmd_detail/id/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+
+[ 2016-12-23T16:23:02+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/recmd_detail/id/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-12-23T16:23:16+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/user_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+SQL: SHOW COLUMNS FROM `dca_rtype` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `dca_rtype`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( isadmin='0' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001865s ]
+
+[ 2016-12-23T16:23:16+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-12-23T16:23:16+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-12-23T16:23:16+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-12-23T16:23:16+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+
+[ 2016-12-23T16:23:16+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-12-23T16:23:19+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/recmd_detail/id/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] Undefined variable: rtype3 C:\wamp\www\Campus\Application\Runtime\Cache\Admin\be24839dd93efd963d295a5e26c3707e.php 第 819 行.
+NOTIC: [8] Undefined variable: rtype4 C:\wamp\www\Campus\Application\Runtime\Cache\Admin\be24839dd93efd963d295a5e26c3707e.php 第 823 行.
+NOTIC: [8] Undefined variable: rtype5 C:\wamp\www\Campus\Application\Runtime\Cache\Admin\be24839dd93efd963d295a5e26c3707e.php 第 827 行.
+NOTIC: [8] Undefined variable: rtype6 C:\wamp\www\Campus\Application\Runtime\Cache\Admin\be24839dd93efd963d295a5e26c3707e.php 第 831 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001541s ]
+
+[ 2016-12-23T16:23:19+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/recmd_detail/id/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+
+[ 2016-12-23T16:23:19+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/recmd_detail/id/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+
+[ 2016-12-23T16:23:19+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/recmd_detail/id/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+
+[ 2016-12-23T16:23:19+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/recmd_detail/id/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+
+[ 2016-12-23T16:23:19+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/recmd_detail/id/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+
+[ 2016-12-23T16:23:24+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/user_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+SQL: SHOW COLUMNS FROM `dca_rtype` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `dca_rtype`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( isadmin='0' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000433s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000629s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2016-12-23T16:23:24+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-12-23T16:23:24+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-12-23T16:23:24+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-12-23T16:23:24+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001424s ]
+
+[ 2016-12-23T16:23:24+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-12-23T16:23:38+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000559s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000889s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2016-12-23T16:23:38+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+
+[ 2016-12-23T16:23:38+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-12-23T16:23:38+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-12-23T16:23:38+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004619s ]
+
+[ 2016-12-23T16:23:38+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002400s ]
+
+[ 2016-12-23T16:23:38+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+
+[ 2016-12-23T16:24:20+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/doTuijian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\Campus\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\Campus\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\Campus\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `dca_recommend` (`name`,`place`,`rtype_rid`,`cause`,`pic`,`isadmin`,`ischeck`,`user_uid`,`creatime`) VALUES ('11','11','6','11','585cdf33f2afd.jpg','1','1','1','2016-12-23 16:24:19') [ RunTime:0.0267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003975s ]
+
+[ 2016-12-23T16:24:21+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002561s ]
+
+[ 2016-12-23T16:24:21+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+
+[ 2016-12-23T16:24:21+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+
+[ 2016-12-23T16:24:21+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002466s ]
+
+[ 2016-12-23T16:24:21+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002526s ]
+
+[ 2016-12-23T16:24:21+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002008s ]
+
+[ 2016-12-23T16:24:28+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/delchecks?id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0119s ]
+SQL: SELECT `pic` FROM `dca_recommend` WHERE ( id in (46) )  [ RunTime:0.0007s ]
+SQL: DELETE FROM `dca_recommend` WHERE ( id in (46) ) [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001806s ]
+
+[ 2016-12-23T16:24:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000404s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2016-12-23T16:24:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-12-23T16:24:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+
+[ 2016-12-23T16:24:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+
+[ 2016-12-23T16:24:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+
+[ 2016-12-23T16:24:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-12-23T16:24:29+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+
+[ 2016-12-23T16:24:45+08:00 ] 127.0.0.1 /Campus/Admin/Index/index_gallery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004073s ]
+SQL: SHOW COLUMNS FROM `dca_carousel` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `dca_carousel`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004417s ]
+
+[ 2016-12-23T16:24:45+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-12-23T16:24:45+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+
+[ 2016-12-23T16:24:45+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002669s ]
+
+[ 2016-12-23T16:24:45+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+
+[ 2016-12-23T16:24:45+08:00 ] 127.0.0.1 /Campus/Admin/Index/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+
+[ 2016-12-23T16:25:00+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/admin_recmd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_rtype  ON dca_recommend.rtype_rid =dca_rtype.rid  INNER JOIN  dca_admin  ON dca_recommend.user_uid =dca_admin.adminid   WHERE ( isadmin='1' )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Undefined variable: recmdtype C:\wamp\www\Campus\Application\Runtime\Cache\Admin\e107e1fe585f26ffe7738a8ad715b3e1.php 第 858 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2016-12-23T16:25:00+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-12-23T16:25:00+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-12-23T16:25:00+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001440s ]
+
+[ 2016-12-23T16:25:01+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+
+[ 2016-12-23T16:25:01+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+
+[ 2016-12-23T16:25:01+08:00 ] 127.0.0.1 /Campus/Admin/Recommend/assets/img/avatars/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+

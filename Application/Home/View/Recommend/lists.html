@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+<title>lists</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+
+<include file="./Application/Public/head.html" />
+
+<script type="text/javascript">
+
+	var w,h,className;
+function getSrceenWH(){
+	w = $(window).width();
+	h = $(window).height();
+	$('#dialogBg').width(w).height(h);
+}
+
+window.onresize = function(){  
+	getSrceenWH();
+}  
+$(window).resize();  
+
+$(function(){
+	getSrceenWH();
+	
+	//ÏÔÊ¾µ¯¿ò
+	$('.box a').click(function(){
+		className = $(this).attr('class');
+		$('#dialogBg').fadeIn(300);
+		$('#dialog').removeAttr('class').addClass('animated '+className+'').fadeIn();
+	});
+	
+	//¹Ø±Õµ¯´°
+	$('.claseDialogBtn').click(function(){
+		$('#dialogBg').fadeOut(300,function(){
+			$('#dialog').addClass('bounceOutUp').fadeOut();
+		});
+	});
+});
+</script>
+<style type="text/css">
+body{
+	background: #f7f7f7;
+}
+</style>
+</head>
+<body>
+<div class="header" id="ban">
+
+		<include file="./Application/Public/nav.html" />
+
+
+</div>
+
+	<!-- technology-left -->
+	<div class="technology">
+	<div class="container">
+		<div class="col-md-9 technology-left" style="margin-bottom: 30px;">
+			<div class="blog">
+		
+			<h2 class="w3" style="font-family: miaomi">{$redmodeltype.rname}</h2>
+
+
+			
+
+
+	<div id="wrapper">
+	<div class="box">
+		<div class="demo">
+			<div class="key">	
+			<a href="javascript:;" class="rollIn" >发布推荐</a>
+			</div>
+		</div>
+		
+		<div id="dialogBg"></div>
+		
+		<if condition="$Think.session.telephone eq null">
+		  <div id="dialog" class="animated" style="height: 220px;">
+			<div class="dialogTop">
+			    <a href="#" style="font-size: 20px; margin-right: 180px;">登录</a>
+				<a href="javascript:;" class="claseDialogBtn">关闭</a>
+			</div>
+			<form action="{:U('Home/Recommend/dologin')}" method="post" id="editForm" enctype="multipart/form-data">
+				<ul class="editInfos">
+					<li><input type="text" name="telephone" value="" class="ipt" style="width: 200px;" placeholder="输入电话号码登录" required  /></li>
+					<li><input type="password" name="password" value="" class="ipt" style="width: 200px;" placeholder="输入密码" required  /></li>
+					                
+					<li><input type="submit" value="登录" class="submitBtn" style="width: 200px;"/></li>
+				</ul>
+			</form>
+		</div>
+	<else/>
+		<div id="dialog" class="animated">
+			<!-- <img class="dialogIco" width="50" height="50" src="__PUBLIC__/Home/images/ico.png" alt="" /> -->
+			<div class="dialogTop">
+			    <a href="#" style="font-size: 20px; margin-right: 40px;">发布你的推荐</a>
+				<a href="javascript:;" class="claseDialogBtn">关闭</a>
+			</div>
+			<form action="{:U('Recommend/doTuijian')}" method="post" id="editForm" enctype="multipart/form-data">
+				<ul class="editInfos">
+					<li><input type="text" name="name" value="" class="ipt" style="width: 200px;" placeholder="推荐标题" required  /></li>
+					<li><input type="text" name="place" value="" class="ipt" style="width: 200px;" placeholder="所在地" required  /></li>
+					<li><select name="rtype_rid" class="ipt"  style="width: 200px;" >
+                    <option value="0">推荐主题</option>
+                    <option value="1">美食</option>
+                    <option value="2">人文</option>
+                    <option value="3">购物</option>  
+                    <option value="4">游园观光</option>
+                    <option value="5">娱乐休闲</option>
+                    <option value="6">沙滩海岛</option>
+                        </select></li>
+                    <li><input type="text" name="cause" value="" class="ipt" style="width: 200px;" placeholder="简介" required  /></li>
+                    <li style="margin-left: 47px" class="file">        
+                    <input type="file" name="pic" class="ipt" style="width: 200px;" title="主题图片"  /></li>
+					<li><input type="submit" value="发布" class="submitBtn" /></li>
+				</ul>
+			</form>
+
+		</div></if>
+
+
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+			<div class="clearfix"> </div>
+		
+
+			<div class="blog-grids1">
+             <volist name="redmodel" id="vo"> 
+				<div class="col-md-6 blog-grid" style="margin-bottom: 50px;">
+					<div class="blog-grid-left1">
+						<a href="{:U('Recommend/content',array('id'=>$vo['id']))}"><img src="__PUBLIC__/Home/uploads/recmdphoto/{$vo.pic}" alt=" " class="img-responsive" style="width: 375px; height: 236px"></a>
+						<input type="hidden" value="{$vo.id}">
+					</div> 
+					<div class="blog-grid-right1" >
+						<a href="{:U('Recommend/content',array('id'=>$vo['id']))}">{$vo.name}</a>
+						<div class="boxed_mini_details clearfix">
+			                         <span class="area first">
+			                           <strong style="margin-left: 4px;">发布人</strong>
+			                           <img src="__PUBLIC__/Home/images/user.png" style="width: 13px;margin-left: 3px;" >
+			                           <i class="fa fa-plane icon1"></i>{$vo.uname}
+			                         </span>
+			                         <span class="area first">
+			                           <strong>浏览量</strong>
+			                           <img src="__PUBLIC__/Home/images/eye.png" style="width: 13px;margin-left: 3px;" >
+			                           <i class="fa fa-plane icon1"></i>{$vo.hits}
+			                         </span>
+			                         <span class="area first">
+			                           <strong>觉得很棒</strong>
+			                           <img src="__PUBLIC__/Home/images/zan.png" style="width: 13px; margin-left: 9px;" >
+			                           <i class="fa fa-plane icon1"></i>{$vo.praise}
+			                         </span>			      
+                                    </div>
+					</div>
+					<div class="clearfix"> </div>
+					
+				</div>
+				</volist>
+
+
+				
+				<div class="clearfix"> </div>
+			</div>
+
+
+           <div class="paging">{$link}</div>
+			
+
+
+
+
+			<!-- <nav class="paging">
+				<ul class="pagination pagination-lg">
+					<li><a href="#" aria-label="Previous"><span aria-hidden="true"><<</span></a></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#" aria-label="Next"><span aria-hidden="true">>></span></a></li>
+				</ul>
+			</nav> -->
+		
+	</div>
+		</div>
+		<!-- technology-right -->
+		<div class="col-md-3 technology-right">
+				
+				
+				<div class="blo-top1">
+							
+					<div class="tech-btm">
+					
+					<h4 style="font-family: miaomi">推荐主题</h4>
+						<div class="blog-grids" style="margin-top: -13px;">							
+							<div class="blog-grid-right">
+							<volist name="rtype" id="vo">						
+								<h5 style="font-family: miaomi;margin-bottom: 5px; font-size: 16px;"><a href="{:U('Recommend/lists',array('rtype_rid'=>$vo['rid']))}">{$vo.rname}</a> </h5>
+								</volist>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						
+						
+						<div class="insta">
+					<h4 style="font-family: miaomi">最新推荐</h4>
+                     <volist name="fresh" id="vo">	
+					    <div class="blog-grids">
+							<div class="blog-grid-left">
+								<a href="{:U('Recommend/content',array('id'=>$vo['id']))}"><img src="__PUBLIC__/Home/uploads/recmdphoto/{$vo.pic}" class="img-responsive" alt=""></a>
+							</div>
+							<div class="blog-grid-right">
+								<input type="hidden" value="{$vo.id}<"></input>
+								<h5 style="font-family: miaomi ;margin-top:10px;"><a href="{:U('Recommend/content',array('id'=>$vo['id']))}">{$vo.name}</a> </h5>
+								<img src="__PUBLIC__/Home/images/red_eye.png" style="width: 18px;margin-top: -3px;"><span style="font-size: 15px;">{$vo.hits}</span>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					 </volist>
+
+					</div>
+	
+					</div>
+					
+					
+					
+				</div>
+				
+			
+		</div>
+		<div class="clearfix"></div>
+		<!-- technology-right -->
+	</div>
+</div>
+
+               <div class="contact-grid" style="width: 350px;">
+							
+							<form action="#" method="post">
+								<input type="text" name="Name" value="Name " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+								<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+								<input type="text" name="Phone" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" required="">
+								<textarea type="text" name="textarea" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Special Instruction/Comments...';}" required="">Special Instruction/Comments...</textarea>
+								<input type="submit" value="Send">
+							</form>
+						</div>
+
+
+
+	<include file="./Application/Public/footer.html" />
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <title>AbsoluteAdmin - A Responsive Boostrap 3 Admin Dashboard</title>
+  <meta name="keywords" content="Bootstrap 3 Admin Dashboard Template Theme" />
+  <meta name="description" content="AdminDesigns - Bootstrap 3 Admin Dashboard Theme">
+  <meta name="author" content="AdminDesigns">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <include file="./Application/Public/Admin/import_file.html" />
+
+</head>
+
+<body class="gallery-page">
+
+  <!-- Start: Main -->
+  <div id="main">
+
+    <!--Start: Header -->
+                                                   <include file="./Application/Public/Admin/header.html" />
+    <!-- End: Header -->
+
+    <!-- Start: Sidebar -->
+    <aside id="sidebar_left" class="nano nano-light affix">
+
+      <!-- Start: Sidebar Left Content -->
+      <div class="sidebar-left-content nano-content">
+
+        <!-- Start: Sidebar Menu -->
+                                                     <include file="./Application/Public/Admin/menu.html" />
+        <!-- End: Sidebar Menu -->
+
+	      <!-- Start: Sidebar Collapse Button -->
+	      <div class="sidebar-toggle-mini">
+	        <a href="#">
+	          <span class="fa fa-sign-out"></span>
+	        </a>
+	      </div>
+	      <!-- End: Sidebar Collapse Button -->
+
+      </div>
+      <!-- End: Sidebar Left Content -->
+
+    </aside>
+
+    <!-- Start: Content-Wrapper -->
+    <section id="content_wrapper">
+
+
+      <!-- Start: Topbar -->
+      <header id="topbar" class="alt">
+        <div class="topbar-left">
+          <ol class="breadcrumb">
+            <li class="crumb-active">
+              <a href="{:U('Admin/Index/index_gallery')}" style="font-weight: bold;">首页图片管理</a>
+            </li>
+            <li class="crumb-icon">
+              <a href="dashboard.html">
+                <span class="glyphicon glyphicon-picture"></span>
+              </a>
+            </li>
+            
+            <li class="crumb-trail">轮播图片管理</li>
+          </ol>
+        </div>
+        <div class="topbar-right">
+          
+         <!--  <div class="ml15 ib va-m" id="toggle_sidemenu_r">
+            <a href="#" class="pl5">
+              <i class="fa fa-sign-in fs22 text-primary"></i>
+              <span class="badge badge-hero badge-danger">3</span>
+            </a>
+          </div> -->
+        </div>
+      </header>
+      <!-- End: Topbar -->
+
+      <section id="content" class="table-layout animated fadeIn">
+
+        <div class="tray tray-center">
+
+          <div class="mh15 pv15 br-b br-light">
+            <div class="row">
+              <div class="col-xs-7">
+                <div class="mix-controls ib">
+                  <form class="controls" id="select-filters">
+                    <!-- We can add an unlimited number of "filter groups" using the following format: -->
+                    <div class="btn-group ib mr10">
+                      <button type="button" class="btn btn-default hidden-xs">
+                        <span class="fa fa-folder"></span>
+                      </button>
+                      <div class="btn-group">
+                        <fieldset>
+                          <select id="filter1">
+                            <option value="">所有轮播图片</option>
+                            <option value=".folder1">置顶图片</option>
+                            <option value=".folder2">未置顶图片</option>
+                           <!--  <option value=".folder3">Sony Demo</option> -->
+                          </select>
+                        </fieldset>
+                      </div>
+                    </div>
+                    <!-- <div class="btn-group ib mr10">
+                      <button type="button" class="btn btn-default hidden-xs">
+                        <span class="fa fa-tag"></span>
+                      </button>
+                      <div class="btn-group">
+                        <fieldset>
+                          <select id="filter2">
+                            <option value="">All Labels</option>
+                            <option value=".label1">Work</option>
+                            <option value=".label3">Clients</option>
+                            <option value=".label2">Family</option>
+                          </select>
+                        </fieldset>
+                      </div>
+                    </div> -->
+                  </form>
+                </div>
+
+              </div>
+              <div class="col-xs-5 text-right">
+                <!-- <button type="button" id="mix-reset" class="btn btn-default mr5">Clear Filters</button> -->
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default to-grid">
+                    <span class="fa fa-th"></span>
+                  </button>
+                  <button type="button" class="btn btn-default to-list">
+                    <span class="fa fa-navicon"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="mix-controls hidden">
+              <form class="controls admin-form" id="checkbox-filters">
+                <!-- We can add an unlimited number of "filter groups" using the following format: -->
+
+                <fieldset class="">
+                  <h4>Cars</h4>
+
+                  <label class="option block mt10">
+                    <input type="checkbox" value=".circle">
+                    <span class="checkbox"></span>Circle
+                  </label>
+
+                </fieldset>
+
+                <button id="mix-reset2">Clear All</button>
+              </form>
+
+            </div>
+          </div>
+
+          <div id="mix-container">
+
+            <div class="fail-message">
+              <span>No items were found matching the selected filters</span>
+            </div>
+ 
+            <volist name="isfirst" id="vo1">
+            <if condition="$vo1.isfirst eq '1'">
+            <div class="mix label1 folder1">
+              <div class="panel p6 pbn">
+                <div class="of-h">
+                  <img src="__PUBLIC__/Admin/Uploads/carouselphoto/{$vo1.pic}" class="img-responsive" title="{$vo1.sketch}">
+                  <div class="row table-layout">
+                    <div class="col-xs-8 va-m pln">
+                      <h6>{$vo1.title}</h6>
+                    </div>
+                    <div class="col-xs-4 text-right va-m prn">
+                      <a href="{:U('cancel',array('id'=>$vo1['id']))}"><span class="fa fa-level-down fs12 text-muted"  title="取消置顶"></span></a>
+                      <a href="{:U('delcarousel',array('id'=>$vo1['id']))}" onclick="return confirm('你确定要删除吗？')">
+                      <span class="fa fa-trash-o fs10 text-muted ml10" title="删除"></span></a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          <else/>
+            <div class="mix label2 folder2">
+              <div class="panel p6 pbn">
+                <div class="of-h">
+                  <img src="__PUBLIC__/Admin/Uploads/carouselphoto/{$vo1.pic}" class="img-responsive" title="{$vo1.sketch}">
+                  <div class="row table-layout">
+                    <div class="col-xs-8 va-m pln">
+                      <h6>{$vo1.title}</h6>
+                    </div>
+                    <div class="col-xs-4 text-right va-m prn">
+                      <a href="{:U('top',array('id'=>$vo1['id']))}"><span class="fa fa-level-up fs12 text-muted" title="置顶"></span></a>
+                      <a href="{:U('delcarousel',array('id'=>$vo1['id']))}" onclick="return confirm('你确定要删除吗？')">
+                      <span class="fa fa-trash-o fs10 text-muted ml10" title="删除"></span></a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+           </if>
+          </volist>
+       
+
+
+           <!--  <div class="mix label3 folder3">
+              <div class="panel p6 pbn">
+                <div class="of-h">
+                  <img src="__PUBLIC__/Admin/assets/img/stock/3.jpg" class="img-responsive" title="why_are_locks.jpg">
+                  <div class="row table-layout">
+                    <div class="col-xs-8 va-m pln">
+                      <h6>why_are_locks.jpg</h6>
+                    </div>
+                    <div class="col-xs-4 text-right va-m prn">
+                      <span class="fa fa-eye-slash fs12 text-muted"></span>
+                      <span class="fa fa-circle fs10 text-danger ml10"></span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+ -->
+
+           <!--  <div class="mix label2 folder2">
+              <div class="panel p6 pbn">
+                <div class="of-h">
+                  <img src="__PUBLIC__/Admin/assets/img/stock/5.jpg" class="img-responsive" title="the-beach.jpg">
+                  <div class="row table-layout">
+                    <div class="col-xs-8 va-m pln">
+                      <h6>the-beach.jpg</h6>
+                    </div>
+                    <div class="col-xs-4 text-right va-m prn">
+                      <span class="fa fa-eye-slash fs12 text-muted"></span>
+                      <span class="fa fa-circle fs10 text-system ml10"></span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div> -->
+
+          
+
+           <!--  <div class="mix label1 folder1">
+              <div class="panel p6 pbn">
+                <div class="of-h">
+                  <img src="__PUBLIC__/Admin/assets/img/stock/2.jpg" class="img-responsive" title="yosemite_sun.jpg">
+                  <div class="row table-layout">
+                    <div class="col-xs-8 va-m pln">
+                      <h6>yosemite_sun.jpg</h6>
+                    </div>
+                    <div class="col-xs-4 text-right va-m prn">
+                      <span class="fa fa-eye-slash fs12 text-muted"></span>
+                      <span class="fa fa-circle fs10 text-alert ml10"></span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div> -->
+
+          
+            <div class="gap"></div>
+            <div class="gap"></div>
+            <div class="gap"></div>
+            <div class="gap"></div>
+
+
+
+          </div>
+
+        </div>
+
+        <aside class="tray tray-right tray320" data-tray-height="match">
+
+          <h4 class="tray-title">上传轮播图片</h4>
+          <form action="{:U('Index/do_first_carousel')}" method="post" enctype="multipart/form-data">
+
+          <!-- Image Upload Field -->
+          <div class="fileupload fileupload-new admin-form mt20" data-provides="fileupload">
+            <div class="section mb10">
+              <label for="title" class="field prepend-icon">
+                <input type="text" name="title" id="title" class="event-name gui-input br-light light" placeholder="标题" required>
+                <label for="title" class="field-icon">
+                  <i class="fa fa-pencil"></i>
+                </label>
+              </label>
+            </div>
+            <div class="section mb10">
+              <label class="field prepend-icon">
+                <textarea class="gui-textarea br-light h-80 bg-light" id="sketch" name="sketch" placeholder="概述" required></textarea>
+                <label for="sketch" class="field-icon">
+                  <i class="fa fa-comments"></i>
+                </label>
+        
+
+                <span class="input-footer hidden">
+                  <strong>Hint:</strong>Don't be negative or off topic! just be awesome...</span>
+              </label>
+            </div>
+            <div class="row">
+              <div class="col-xs-4">
+                <span class="button btn-system btn-file btn-block ph5">
+                  <span class="fileupload-new">选择文件</span>
+                  <span class="fileupload-exists">重新选择</span>
+                  <input type="file" name="pic" required >
+                </span>
+              </div>
+              <div class="col-xs-8 pln">
+                <label for="name2" class="field prepend-icon">
+                  <!-- <input type="text" name="name2" id="name2" class="event-name gui-input br-light bg-light" placeholder="Tags"> -->
+                  <select class="form-control" name="isfirst" required >
+                     <option>是否置顶</option>
+                     <option value="0">否</option>
+                     <option value="1">是</option>
+                     
+                   </select>
+                  <label for="name2" class="field-icon">
+                    <!-- <i class="fa fa-pencil"></i> -->
+                  </label>
+                </label>
+              </div>
+            </div>
+
+            <div class="fileupload-preview thumbnail m5 mt20 mb30">
+              <img data-src="holder.js/100%x140" alt="holder">
+            </div>
+
+             <input type="submit" class="event-name gui-input br-light bg-light" value="提交">
+            </form>
+
+          </div>
+
+          <!-- Labels Menu -->
+          <!-- <div class="list-group list-group-links">
+            <div class="list-group-header"> Labels </div>
+            <a href="#" class="list-group-item">
+              Clients
+              <span class="badge badge-info">6</span>
+            </a>
+            <a href="#" class="list-group-item">
+              Contractors
+              <span class="badge badge-success">8</span>
+            </a>
+            <a href="#" class="list-group-item">
+              Employees
+              <span class="badge badge-primary">11</span>
+            </a>
+            <a href="#" class="list-group-item">
+              Suppliers
+              <span class="badge badge-system">13</span>
+            </a>
+          </div> -->
+
+        </aside>
+
+      </section>
+
+    </section>
+
+    
+
+  </div>
+
+
+
+
+
+<include file="./Application/Public/Admin/index_gallery_footer.html" />
+ 
+</body>
+
+</html>

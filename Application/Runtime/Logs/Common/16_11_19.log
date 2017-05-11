@@ -1,0 +1,54 @@
+[ 2016-11-19T00:28:33+08:00 ] 127.0.0.1 /CampusAlliance/Index/lists/rid/$rid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+ERR: 无法加载模块:Index
+
+[ 2016-11-19T00:29:16+08:00 ] 127.0.0.1 /CampusAlliance/Index/lists/rid/$rid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载模块:Index
+
+[ 2016-11-19T00:29:19+08:00 ] 127.0.0.1 /CampusAlliance/Index/lists/rid/$rid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+ERR: 无法加载模块:Index
+
+[ 2016-11-19T00:30:04+08:00 ] 127.0.0.1 /CampusAlliance/Index/lists/rid/$rid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+ERR: 无法加载模块:Index
+
+[ 2016-11-19T00:30:11+08:00 ] 127.0.0.1 /CampusAlliance/Index/lists/rid/%7B'2'%7D.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+ERR: 无法加载模块:Index
+
+[ 2016-11-19T00:31:59+08:00 ] 127.0.0.1 /CampusAlliance/Index/lists/rid/%7B'2'%7D.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001292s ]
+ERR: 无法加载模块:Index
+
+[ 2016-11-19T10:26:13+08:00 ] 127.0.0.1 /CampusAlliance/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+ERR: 无法加载模块:Index
+
+[ 2016-11-19T10:26:36+08:00 ] 127.0.0.1 /CampusAlliance/Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+ERR: 无法加载模块:Index
+
+[ 2016-11-19T10:26:45+08:00 ] 127.0.0.1 /CampusAlliance/Recommend%E3%80%81Index/lists/rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+ERR: 无法加载模块:Recommend、Index
+

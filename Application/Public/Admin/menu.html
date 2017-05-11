@@ -1,0 +1,97 @@
+<ul class="nav sidebar-menu">
+          <li class="sidebar-label pt20">首页图片管理</li>
+          <li>
+            <a href="{:U('Admin/Index/index_gallery')}">
+              <span class="glyphicon glyphicon-picture"></span>
+              <span class="sidebar-title">轮播图片管理</span>
+              <span class="sidebar-title-tray">
+                <!-- <span class="label label-xs bg-primary">New</span> -->
+              </span>
+            </a>
+          </li>
+          <!-- <li>
+            <a href="../README/index.html">
+              <span class=" icon-youtube4"></span>
+              <span class="sidebar-title">Documentation</span>
+            </a>
+          </li>
+          <li class="active">
+            <a href="dashboard.html">
+              <span class="glyphicon glyphicon-home"></span>
+              <span class="sidebar-title">Dashboard</span>
+            </a>
+          </li> -->
+
+          <li class="sidebar-label pt15">后台数据管理</li>
+          <li>
+            <a class="accordion-toggle" href="#">
+              <span class="imoon imoon-wand"></span>
+              <span class="sidebar-title">主题推荐数据管理</span>
+              <span class="caret"></span>
+            </a>
+            <ul class="nav sub-nav">
+              <!-- <li>
+                <a href="admin_plugins-panels.html">
+                  <span class="glyphicon glyphicon-book"></span>主题推荐类型</a>
+              </li> -->
+              <li>
+                <a href="{:U('Admin/Recommend/user_recmd')}">
+                  <span class="glyphicons glyphicons-group"></span>用户推荐</a>
+              </li>
+              <li>
+                <a href="{:U('Admin/Recommend/admin_recmd')}">
+                  <span class="glyphicon glyphicon-user"></span>管理员推荐</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a class="accordion-toggle" href="#">
+              <span class="glyphicons glyphicons-cars"></span>
+              <span class="sidebar-title">结伴同游数据管理</span>
+              <span class="caret"></span>
+            </a>
+            <ul class="nav sub-nav">
+              <!-- <li>
+                <a href="admin_plugins-panels.html">
+                  <span class="glyphicon glyphicon-book"></span>主题推荐类型</a>
+              </li> -->
+              <li>
+                <a href="{:U('Admin/User/travel')}">
+                  <span class="glyphicons glyphicons-car"></span>结伴同游</a>
+              </li>
+             
+            </ul>
+          </li>
+
+          <li>
+            <a class="accordion-toggle" href="#">
+              <span class="glyphicons glyphicons-group"></span>
+              <span class="sidebar-title">用户管理</span>
+              <span class="caret"></span>
+            </a>
+            <ul class="nav sub-nav">
+              <li>
+                <a href="{:U('Admin/User/user_info')}">
+                  <span class="glyphicon glyphicon-edit"></span> 用户资料 </a>
+              </li>
+              <li>
+                <a href="{:U('Admin/User/recmd_collect')}">
+                  <span class="fa fa-star-o"></span>用户收藏（主题推荐）</a>
+              </li>
+              <li>
+                <a href="{:U('Admin/User/travel_collect')}">
+                  <span class="fa fa-star"></span>用户收藏（结伴同游） </a>
+              </li>
+              <!-- <li>
+                <a href="{:U('Admin/User/p_letter')}">
+                  <span class="fa fa-desktop"></span>私信</a>
+              </li> -->
+             <!--  <li>
+                <a href="admin_forms-wizard.html">
+                  <span class="fa fa-clipboard"></span> Admin Wizard </a>
+              </li> -->
+            </ul>
+          </li>
+
+        </ul>

@@ -1,0 +1,72 @@
+[ 2016-12-23T16:18:28+08:00 ] 127.0.0.1 /Campus/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+ERR: 无法加载模块:Fonts
+
+[ 2016-12-23T16:19:00+08:00 ] 127.0.0.1 /Campus/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+ERR: 无法加载模块:Fonts
+
+[ 2016-12-23T16:43:45+08:00 ] 127.0.0.1 /Campus/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001609s ]
+ERR: 无法加载模块:Fonts
+
+[ 2016-12-23T19:47:26+08:00 ] 127.0.0.1 /Campus/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+ERR: 无法加载模块:Fonts
+
+[ 2016-12-23T21:17:48+08:00 ] 127.0.0.1 /Campus/Campus/Home/User/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+ERR: 无法加载模块:Campus
+
+[ 2016-12-23T21:18:07+08:00 ] 127.0.0.1 /Campus/Campus/Home/User/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+ERR: 无法加载模块:Campus
+
+[ 2016-12-23T21:18:13+08:00 ] 127.0.0.1 /Campus/Campus/Home/User/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+ERR: 无法加载模块:Campus
+
+[ 2016-12-23T21:19:33+08:00 ] 127.0.0.1 /Campus/Campus/Home/User/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+ERR: 无法加载模块:Campus
+
+[ 2016-12-23T21:19:43+08:00 ] 127.0.0.1 /Campus/Campus/Home/User/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载模块:Campus
+
+[ 2016-12-23T21:19:46+08:00 ] 127.0.0.1 /Campus//Campus/Home/User/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+ERR: 无法加载模块:Campus
+
+[ 2016-12-23T23:26:17+08:00 ] 127.0.0.1 /Campus/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:Fonts
+
+[ 2016-12-23T23:29:40+08:00 ] 127.0.0.1 /Campus/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+ERR: 无法加载模块:Fonts
+

@@ -1,0 +1,1376 @@
+[ 2017-04-17T20:20:20+08:00 ] ::1 /Campus/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=1 ) LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dca_carousel` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `dca_carousel` WHERE ( isfirst=1 ) ORDER BY createtime desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( ischeck='1' ) ORDER BY  hits desc LIMIT 4   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   ORDER BY creatime desc LIMIT 6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: uname /Applications/MAMP/htdocs/Campus/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 336 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2017-04-17T20:20:22+08:00 ] ::1 /Campus/Home/User/logins.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' /Applications/MAMP/htdocs/Campus/Application/Runtime/Cache/Home/026ba93841be942f2fad3817cca2fcbf.php 第 381 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' /Applications/MAMP/htdocs/Campus/Application/Runtime/Cache/Home/026ba93841be942f2fad3817cca2fcbf.php 第 403 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2017-04-17T20:20:22+08:00 ] ::1 /Campus/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+NOTIC: [8] ob_clean(): failed to delete buffer. No buffer to delete /Applications/MAMP/htdocs/Campus/Application/Home/Controller/UserController.class.php 第 363 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2017-04-17T20:20:25+08:00 ] ::1 /Campus/Home/User/checkYZM?verifycode=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-04-17T20:20:32+08:00 ] ::1 /Campus/Home/User/checkTele?t=15642657075&l=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dca_user` WHERE ( telephone='15642657075' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-04-17T20:20:36+08:00 ] ::1 /Campus/Home/User/checkAlias?alias=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dca_user` WHERE ( uname='123' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2017-04-17T20:20:39+08:00 ] ::1 /Campus/Home/User/check?pwd1=123&pwd2=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-04-17T20:20:42+08:00 ] ::1 /Campus/Home/User/checkYZM?verifycode=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-04-17T20:20:42+08:00 ] ::1 /Campus/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] ob_clean(): failed to delete buffer. No buffer to delete /Applications/MAMP/htdocs/Campus/Application/Home/Controller/UserController.class.php 第 363 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-04-17T20:20:49+08:00 ] ::1 /Campus/Home/User/checkYZM?verifycode=xq86n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-04-17T20:20:49+08:00 ] ::1 /Campus/Home/User/check?pwd1=123&pwd2=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-04-17T20:20:49+08:00 ] ::1 /Campus/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/Campus/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `dca_user` WHERE `telephone` = '15642657075' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dca_user` WHERE `uname` = '123' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/Campus/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `dca_user` (`telephone`,`uname`,`password`,`upic`) VALUES ('15642657075','123','202cb962ac59075b964b07152d234b70','default.jpg') [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-04-17T20:20:50+08:00 ] ::1 /Campus/Home/User/update_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dca_user` WHERE ( uid=23 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Use of undefined constant doUpdate - assumed 'doUpdate' /Applications/MAMP/htdocs/Campus/Application/Runtime/Cache/Home/d87278deb9d9c6e14794084169f3a38d.php 第 473 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2017-04-17T20:20:50+08:00 ] ::1 /Campus/Home/User/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+ERR: 非法操作:fonts
+
+[ 2017-04-17T20:20:56+08:00 ] ::1 /Campus/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=5 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=6 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=5 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `dca_carousel` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `dca_carousel` WHERE ( isfirst=1 ) ORDER BY createtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( ischeck='1' ) ORDER BY  hits desc LIMIT 4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   ORDER BY creatime desc LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2017-04-17T20:20:56+08:00 ] ::1 /Campus/Home/Index/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+ERR: 非法操作:fonts
+
+[ 2017-04-17T20:21:00+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT dca_user.uname,dca_recommend.pic,dca_recommend.name,dca_recommend.hits,dca_recommend.praise,dca_recommend.id FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( rtype_rid=1  and ischeck='1' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dca_rtype` [ RunTime:0.0021s ]
+SQL: SELECT dca_rtype.rname FROM `dca_rtype` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_rtype`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dca_recommend` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2017-04-17T20:21:00+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0012s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+
+[ 2017-04-17T20:23:38+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `dca_themetype` WHERE ( tid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_themetype`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT dca_user.uname,dca_travel.pic,dca_travel.titles,dca_travel.id,dca_travel.hits,dca_travel.want,dca_travel.pretime,dca_travel.endtime FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   WHERE (  themetype_tid='1' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dca_travel` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2017-04-17T20:23:38+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0017s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+
+[ 2017-04-17T20:43:56+08:00 ] ::1 /Campus/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=1 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dca_carousel` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `dca_carousel` WHERE ( isfirst=1 ) ORDER BY createtime desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( ischeck='1' ) ORDER BY  hits desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   ORDER BY creatime desc LIMIT 6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2017-04-17T20:44:03+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT dca_user.uname,dca_recommend.pic,dca_recommend.name,dca_recommend.hits,dca_recommend.praise,dca_recommend.id FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( rtype_rid=1  and ischeck='1' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dca_rtype` [ RunTime:0.0016s ]
+SQL: SELECT dca_rtype.rname FROM `dca_rtype` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dca_rtype`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dca_recommend` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-04-17T20:44:03+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+
+[ 2017-04-17T20:44:23+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT dca_user.uname,dca_recommend.pic,dca_recommend.name,dca_recommend.hits,dca_recommend.praise,dca_recommend.id FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( rtype_rid=1  and ischeck='1' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dca_rtype` [ RunTime:0.0009s ]
+SQL: SELECT dca_rtype.rname FROM `dca_rtype` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_rtype`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_recommend` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-04-17T20:44:23+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0021s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+
+[ 2017-04-17T20:46:01+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `dca_themetype` WHERE ( tid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_themetype`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT dca_user.uname,dca_travel.pic,dca_travel.titles,dca_travel.id,dca_travel.hits,dca_travel.want,dca_travel.pretime,dca_travel.endtime FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   WHERE (  themetype_tid='1' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dca_travel` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2017-04-17T20:46:01+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0008s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+
+[ 2017-04-17T20:46:34+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `dca_themetype` WHERE ( tid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_themetype`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT dca_user.uname,dca_travel.pic,dca_travel.titles,dca_travel.id,dca_travel.hits,dca_travel.want,dca_travel.pretime,dca_travel.endtime FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   WHERE (  themetype_tid='2' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dca_travel` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2017-04-17T20:46:34+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+
+[ 2017-04-17T20:46:40+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `dca_themetype` WHERE ( tid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_themetype`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT dca_user.uname,dca_travel.pic,dca_travel.titles,dca_travel.id,dca_travel.hits,dca_travel.want,dca_travel.pretime,dca_travel.endtime FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   WHERE (  themetype_tid='3' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dca_travel` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2017-04-17T20:46:40+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0019s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+
+[ 2017-04-17T20:46:42+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT dca_user.uname,dca_recommend.pic,dca_recommend.name,dca_recommend.hits,dca_recommend.praise,dca_recommend.id FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( rtype_rid=1  and ischeck='1' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dca_rtype` [ RunTime:0.0009s ]
+SQL: SELECT dca_rtype.rname FROM `dca_rtype` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_rtype`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dca_recommend` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2017-04-17T20:46:42+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0021s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+
+[ 2017-04-17T20:47:49+08:00 ] ::1 /Campus/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-04-17T20:47:49+08:00 ] ::1 /Campus/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=6 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=4 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dca_carousel` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dca_carousel` WHERE ( isfirst=1 ) ORDER BY createtime desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( ischeck='1' ) ORDER BY  hits desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   ORDER BY creatime desc LIMIT 6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: uname /Applications/MAMP/htdocs/Campus/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 336 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2017-04-17T20:47:49+08:00 ] ::1 /Campus/Home/Index/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+ERR: 非法操作:fonts
+
+[ 2017-04-17T20:47:52+08:00 ] ::1 /Campus/Home/User/logins.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' /Applications/MAMP/htdocs/Campus/Application/Runtime/Cache/Home/026ba93841be942f2fad3817cca2fcbf.php 第 381 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' /Applications/MAMP/htdocs/Campus/Application/Runtime/Cache/Home/026ba93841be942f2fad3817cca2fcbf.php 第 403 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-04-17T20:47:52+08:00 ] ::1 /Campus/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+NOTIC: [8] ob_clean(): failed to delete buffer. No buffer to delete /Applications/MAMP/htdocs/Campus/Application/Home/Controller/UserController.class.php 第 363 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-04-17T20:48:44+08:00 ] ::1 /Campus/Home/User/checkYZM?verifycode=bueya
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-04-17T20:48:44+08:00 ] ::1 /Campus/Home/User/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `dca_user` WHERE `telephone` = 'zxc123' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /Applications/MAMP/htdocs/Campus/Application/Home/Controller/UserController.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 0 /Applications/MAMP/htdocs/Campus/Application/Home/Controller/UserController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+
+[ 2017-04-17T20:48:50+08:00 ] ::1 /Campus/Home/User/checkYZM?verifycode=bueya
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-04-17T20:48:51+08:00 ] ::1 /Campus/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8] ob_clean(): failed to delete buffer. No buffer to delete /Applications/MAMP/htdocs/Campus/Application/Home/Controller/UserController.class.php 第 363 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-04-17T20:48:59+08:00 ] ::1 /Campus/Home/User/checkYZM?verifycode=mtytx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-04-17T20:48:59+08:00 ] ::1 /Campus/Home/User/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `dca_user` WHERE `telephone` = '123' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /Applications/MAMP/htdocs/Campus/Application/Home/Controller/UserController.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 0 /Applications/MAMP/htdocs/Campus/Application/Home/Controller/UserController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+
+[ 2017-04-17T20:49:05+08:00 ] ::1 /Campus/Home/User/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `dca_user` WHERE `telephone` = '123' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /Applications/MAMP/htdocs/Campus/Application/Home/Controller/UserController.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 0 /Applications/MAMP/htdocs/Campus/Application/Home/Controller/UserController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+
+[ 2017-04-17T20:49:52+08:00 ] ::1 /Campus/Home/User/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `dca_user` WHERE `telephone` = 'zxc' AND `password` = '6512bd43d9caa6e02c990b0a82652dca'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /Applications/MAMP/htdocs/Campus/Application/Home/Controller/UserController.class.php 第 57 行.
+NOTIC: [8] Undefined offset: 0 /Applications/MAMP/htdocs/Campus/Application/Home/Controller/UserController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+
+[ 2017-04-17T20:49:59+08:00 ] ::1 /Campus/Home/User/checkTele?t=123123123123&l=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `dca_user` WHERE ( telephone='123123123123' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2017-04-17T20:49:59+08:00 ] ::1 /Campus/Home/User/checkAlias?alias=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `dca_user` WHERE ( uname='' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-04-17T20:50:01+08:00 ] ::1 /Campus/Home/User/checkTele?t=12312312312&l=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `dca_user` WHERE ( telephone='12312312312' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-04-17T20:50:09+08:00 ] ::1 /Campus/Home/User/checkAlias?alias=qwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `dca_user` WHERE ( uname='qwe' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-04-17T20:50:15+08:00 ] ::1 /Campus/Home/User/check?pwd1=123&pwd2=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2017-04-17T20:50:21+08:00 ] ::1 /Campus/Home/User/checkYZM?verifycode=mtytx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2017-04-17T20:50:21+08:00 ] ::1 /Campus/Home/User/check?pwd1=123&pwd2=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-04-17T20:50:21+08:00 ] ::1 /Campus/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/Campus/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `dca_user` WHERE `telephone` = '12312312312' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_user` WHERE `uname` = 'qwe' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/Campus/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `dca_user` (`telephone`,`uname`,`password`,`upic`) VALUES ('12312312312','qwe','202cb962ac59075b964b07152d234b70','default.jpg') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2017-04-17T20:50:22+08:00 ] ::1 /Campus/Home/User/update_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `dca_user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `dca_user` WHERE ( uid=24 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Use of undefined constant doUpdate - assumed 'doUpdate' /Applications/MAMP/htdocs/Campus/Application/Runtime/Cache/Home/d87278deb9d9c6e14794084169f3a38d.php 第 473 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2017-04-17T20:50:22+08:00 ] ::1 /Campus/Home/User/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+ERR: 非法操作:fonts
+
+[ 2017-04-17T20:50:25+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT dca_user.uname,dca_recommend.pic,dca_recommend.name,dca_recommend.hits,dca_recommend.praise,dca_recommend.id FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( rtype_rid=1  and ischeck='1' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dca_rtype` [ RunTime:0.0009s ]
+SQL: SELECT dca_rtype.rname FROM `dca_rtype` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_rtype`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dca_recommend` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-04-17T20:50:25+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0031s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+
+[ 2017-04-17T20:58:58+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `dca_themetype` WHERE ( tid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_themetype`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT dca_user.uname,dca_travel.pic,dca_travel.titles,dca_travel.id,dca_travel.hits,dca_travel.want,dca_travel.pretime,dca_travel.endtime FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   WHERE (  themetype_tid='1' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dca_travel` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2017-04-17T20:58:58+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0018s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+
+[ 2017-04-17T21:03:52+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT dca_user.uname,dca_recommend.pic,dca_recommend.name,dca_recommend.hits,dca_recommend.praise,dca_recommend.id FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( rtype_rid=1  and ischeck='1' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dca_rtype` [ RunTime:0.0010s ]
+SQL: SELECT dca_rtype.rname FROM `dca_rtype` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_rtype`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_recommend` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2017-04-17T21:03:52+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0024s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+
+[ 2017-04-17T21:03:54+08:00 ] ::1 /Campus/Home/Recommend/content/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0020s ]
+SQL: UPDATE `dca_recommend` SET `hits`=hits+1 WHERE ( id='23' ) [ RunTime:0.0015s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dca_recmdcollect` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `dca_recmdcollect` WHERE ( recommend_id=23 and uid=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_recommend` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2017-04-17T21:03:54+08:00 ] ::1 /Campus/Home/Recommend/content/id/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0011s ]
+SQL: UPDATE `dca_recommend` SET `hits`=hits+1 WHERE ( id='fonts' ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( id='fonts' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dca_recmdcollect` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_recmdcollect` WHERE ( recommend_id=fonts and uid=24 ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_recmdcollect` WHERE ( recommend_id=fonts and uid=24 ) LIMIT 1  
+
+[ 2017-04-17T21:04:37+08:00 ] ::1 /Campus/Home/Recommend/collect/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `dca_recmdcollect` [ RunTime:0.0018s ]
+SQL: INSERT INTO `dca_recmdcollect` (`recommend_id`,`uid`) VALUES ('23','24') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-04-17T21:04:38+08:00 ] ::1 /Campus/Home/Recommend/content/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0020s ]
+SQL: UPDATE `dca_recommend` SET `hits`=hits+1 WHERE ( id='23' ) [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( id='23' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dca_recmdcollect` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dca_recmdcollect` WHERE ( recommend_id=23 and uid=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dca_recommend` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2017-04-17T21:04:38+08:00 ] ::1 /Campus/Home/Recommend/content/id/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0043s ]
+SQL: UPDATE `dca_recommend` SET `hits`=hits+1 WHERE ( id='fonts' ) [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dca_recommend` WHERE ( id='fonts' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `dca_recmdcollect` [ RunTime:0.0029s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_recmdcollect` WHERE ( recommend_id=fonts and uid=24 ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_recmdcollect` WHERE ( recommend_id=fonts and uid=24 ) LIMIT 1  
+
+[ 2017-04-17T21:05:09+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT dca_user.uname,dca_recommend.pic,dca_recommend.name,dca_recommend.hits,dca_recommend.praise,dca_recommend.id FROM `dca_recommend` INNER JOIN  dca_user  ON dca_recommend.user_uid =dca_user.uid   WHERE ( rtype_rid=1  and ischeck='1' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dca_rtype` [ RunTime:0.0013s ]
+SQL: SELECT dca_rtype.rname FROM `dca_rtype` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dca_rtype`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_recommend` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2017-04-17T21:05:09+08:00 ] ::1 /Campus/Home/Recommend/lists/rtype_rid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `dca_recommend` [ RunTime:0.0022s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `dca_recommend` WHERE ( rtype_rid=fonts ) LIMIT 1  
+
+[ 2017-04-17T21:05:10+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `dca_themetype` WHERE ( tid=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dca_themetype`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT dca_user.uname,dca_travel.pic,dca_travel.titles,dca_travel.id,dca_travel.hits,dca_travel.want,dca_travel.pretime,dca_travel.endtime FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   WHERE (  themetype_tid='1' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dca_travel` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-04-17T21:05:10+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0017s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+
+[ 2017-04-17T21:05:11+08:00 ] ::1 /Campus/Home/Travel/detail/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0020s ]
+SQL: UPDATE `dca_travel` SET `hits`=hits+1 WHERE ( id='12' ) [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_travel` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dca_travelcollect` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `dca_travelcollect` WHERE ( travel_id=12 and uid=24 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-04-17T21:05:11+08:00 ] ::1 /Campus/Home/Travel/detail/id/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0013s ]
+SQL: UPDATE `dca_travel` SET `hits`=hits+1 WHERE ( id='fonts' ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   WHERE ( id='fonts' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dca_travel` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dca_travelcollect` [ RunTime:0.0009s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_travelcollect` WHERE ( travel_id=fonts and uid=24 ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_travelcollect` WHERE ( travel_id=fonts and uid=24 ) LIMIT 1  
+
+[ 2017-04-17T21:07:26+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `dca_themetype` WHERE ( tid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dca_themetype`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dca_travel` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dca_travel` WHERE ( themetype_tid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT dca_user.uname,dca_travel.pic,dca_travel.titles,dca_travel.id,dca_travel.hits,dca_travel.want,dca_travel.pretime,dca_travel.endtime FROM `dca_travel` INNER JOIN  dca_user  ON dca_travel.user_uid =dca_user.uid   WHERE (  themetype_tid='1' ) ORDER BY creatime desc LIMIT 0,8   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dca_travel` ORDER BY creatime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2017-04-17T21:07:26+08:00 ] ::1 /Campus/Home/Travel/travel/theme_tid/fonts/miaomi.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `dca_themetype` [ RunTime:0.0026s ]
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+ERR: 1054:Unknown column 'fonts' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `dca_themetype` WHERE ( tid=fonts ) LIMIT 1  
+
